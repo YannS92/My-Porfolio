@@ -59,7 +59,7 @@ function Projects() {
                   </div>
                 </>
               )}
-              //ghLink="https://github.com/YannS92"
+              ghLink="https://github.com/YannS92/BigData"
               // demoLink="" <--------Please include a demo link here
             />
           </Col>
@@ -82,7 +82,7 @@ function Projects() {
                   </div>
                 </>
               )}
-              //ghLink="https://github.com/YannS92"
+              ghLink="https://github.com/YannS92/Web-Project"
               // demoLink="" <--------Please include a demo link here              
             />
           </Col>
