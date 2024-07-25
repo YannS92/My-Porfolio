@@ -3,11 +3,12 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
+import RARV from "../../Assets/Projects/RARV.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import Cyber from "../../Assets/Projects/Cyber.png";
 
 function Projects() {
   return (
@@ -131,15 +132,42 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={Cyber}
               isBlog={false}
-              title={<span className="purple">SOON</span>}
+              title={<span className="purple">Cybersecurity Project</span>}
               description={(
                 <>
-                  SOON
+                  This cybersecurity project implements a secure infrastructure, carries out audits and analyzes vulnerabilities. It uses specific tools to monitor and protect the network against intrusions. The recommendations are designed to improve the overall security of the IT environment.
+                  <br />
+                  <div className="centered-text">
+                    <span className="purple">Active Directory</span>
+                    <span className="purple">Kali Linux</span>
+                  </div>
                 </>
               )}
-              //ghLink="https://github.com/YannS92"
+              ghLink="https://github.com/YannS92/Cybersecurity"
+              // demoLink="" <--------Please include a demo link here
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={RARV}
+              isBlog={false}
+              title={<span className="purple">Factory Frenzy Project</span>}
+              description={(
+                <>
+                  Our mission was to create “Factory Frenzy”, a game inspired by Fall Guys.
+                   The project consists of a race with platforms and traps, divided into two applications: level editing in VR and multiplayer play on a classic PC.
+                   We therefore carried out a POC to assess the project's viability.
+                  <br />
+                  <div className="centered-text">
+                    <span className="purple">Unity</span>
+                    <span className="purple">C#</span>
+                  </div>
+                </>
+              )}
+              ghLink="https://github.com/YannS92/Projet-RA-RV"
               // demoLink="" <--------Please include a demo link here
             />
           </Col>
