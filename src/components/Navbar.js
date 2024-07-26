@@ -94,11 +94,11 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://soumyajitblogs.vercel.app/"
+                href="mailto:yannsubts92@gmail.com?subject=Demande%20de%20contact&body=Bonjour,%0D%0A%0D%0AJe%20souhaite%20prendre%20contact%20avec%20vous%20pour%20discuter%20de%20..."
                 target="_blank"
                 rel="noreferrer"
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+                <ImBlog style={{ marginBottom: "2px" }} /> Contact
               </Nav.Link>
             </Nav.Item>
 
