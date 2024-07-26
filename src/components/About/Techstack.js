@@ -9,41 +9,76 @@ import {
   DiPython,
   DiGit,
   DiJava,
+  DiHtml5,
+  DiCss3,
 } from "react-icons/di";
 import {
   SiPostgresql,
+  SiCsharp,
+  SiScikitlearn,
+  SiDotnet,
+  SiGnubash,
+  SiPowershell,
+  SiPhp,
 } from "react-icons/si";
-
+import { FaCuttlefish } from "react-icons/fa";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <FaCuttlefish /> {/* C */}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <CgCPlusPlus /> {/* C++ */}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <SiCsharp /> {/* C# */}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <DiHtml5 /> {/* HTML */}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <DiCss3 /> {/* CSS */}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <DiJavascript1 /> {/* JavaScript */}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
+        <DiNodejs /> {/* Node.js */}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <DiReact /> {/* React */}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <DiMongodb /> {/* MongoDB */}
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostgresql /> {/* PostgreSQL */}
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPhp /> {/* PHP */}
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPython /> {/* Python */}
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiScikitlearn /> {/* Scikit-learn */}
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDotnet /> {/* .NET Core 3.X */}
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGnubash /> {/* G-code */}
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPowershell /> {/* PowerShell */}
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJava /> {/* Java */}
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGit /> {/* Git */}
       </Col>
     </Row>
   );
