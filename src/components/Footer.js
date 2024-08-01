@@ -1,8 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import {
-  AiFillGithub,
-} from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
@@ -10,6 +8,11 @@ function Footer() {
   let year = date.getFullYear();
   return (
     <Container fluid className="footer">
+      <Row>
+        <Col md="12" className="footer-heading">
+          <h2>Footer Section</h2> {/* Ajout d'un en-tête de niveau supérieur */}
+        </Col>
+      </Row>
       <Row>
         <Col md="4" className="footer-copywright">
           <h3>Designed and Developed by SUBTS Yann</h3>
