@@ -10,7 +10,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="12" className="footer-heading">
-          <h2>Footer Section</h2> {/* Ajout d'un en-tête de niveau supérieur */}
+          <h2></h2>
         </Col>
       </Row>
       <Row>
