@@ -9,11 +9,6 @@ function Footer() {
   return (
     <Container fluid className="footer">
       <Row>
-        <Col md="12" className="footer-heading">
-          <h2></h2>
-        </Col>
-      </Row>
-      <Row>
         <Col md="4" className="footer-copywright">
           <h3>Designed and Developed by SUBTS Yann</h3>
         </Col>
